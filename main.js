@@ -1,6 +1,6 @@
 
 // VARIABLEs
-const DATE_TARGET = new Date('03/16/2024 16:00 ');
+const DATE_TARGET = new Date('03/16/2024 17:00 ');
 // DOM for render
 const SPAN_DAYS = document.getElementById('days');
 const SPAN_HOURS = document.getElementById('hours');

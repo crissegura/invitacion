@@ -19,19 +19,11 @@
     justify-content: center;
     flex-direction: column;
 }
-h1{
-    font-family: KyM;
-    font-size: 100px;
-    text-align: center;
-    color: #efab96;
-}
-.letraY{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: #efab96;
+.imgKYM{
+    width: 300px;
 }
 h5{
-    margin-top: 8rem;
+    margin-top: 4rem;
     font-size: 25px;
     color: #7c8072;
 }
@@ -96,6 +88,11 @@ a{
     color:#7c8072;
     font-size: 20px;
     font-family: INFO;
+}
+.regalo{
+    font-size: 25px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 .asistencia{
     background-image: url('./media/fondo-textura.jpg');
