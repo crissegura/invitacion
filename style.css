@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: INFO;
+    color:#7c8072;
+    
+}
+@font-face {
+    font-family: INFO;
+    src: url('./fuentes/EBGaramond-VariableFont_wght.ttf');
+    font-family: KyM;
+    src: url('./fuentes/Thanksgiving.ttf');
+}
+.presentacion{
+    min-height: 100vh;
+    background-image: url('./media/fondo-textura.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: KyM;
+    font-size: 100px;
+    text-align: center;
+    color: #efab96;
+}
+.letraY{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #efab96;
+}
+h5{
+    margin-top: 8rem;
+    font-size: 25px;
+    color: #7c8072;
+}
+.imgPres{
+    width: 100%;
+    min-height: 100vh;
+}
+.contador{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.068)),url('./media/fondo-textura.jpg');
+    color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+}
+.nYlContainer{
+    width:30px;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nContador{
+    font-size:40px;
+}
+.lContador{
+    font-size: 20px;
+    width: 1rem;
+}
+.informacion{
+    background-image: url('./media/fondo-textura.jpg');
+    min-height: 300px;
+    text-align: center;
+}
+.calendario{
+    padding: 2rem 0;
+    width: 90px;
+}
+.mes{
+    font-size: 30px;
+    padding-bottom: .5rem;
+}
+.numero{
+    font-size: 50px;
+    padding: 0 .5rem;
+}
+.dia, .hora{
+    font-size: 30px;
+}
+.año{
+    padding-top: .5rem;
+    font-size: 30px;
+}
+.lugar{
+    font-size: 25px;
+    padding-bottom: .5rem;
+}
+a{
+    color:#7c8072;
+    font-size: 20px;
+    font-family: INFO;
+}
+.asistencia{
+    background-image: url('./media/fondo-textura.jpg');
+}
+.asistenciaTexto{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 25px;
+}
+.aConteiner{
+    display: flex;
+    justify-content: center;
+}
+.imgAsistencia{
+    border-radius: 50%;
+    width: 70px;
+}
+.aConfirmar{
+    text-decoration: none;
+    text-align: center;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+
+}
