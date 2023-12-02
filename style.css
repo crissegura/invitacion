@@ -1,13 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: INFO;
 }
 @font-face {
     font-family: INFO;
     src: url('./fuentes/EBGaramond-VariableFont_wght.ttf');
-    font-family: KyM;
-    src: url('./fuentes/Thanksgiving.ttf');
 }
 .presentacion{
     background-image: url('./media/fondo-textura.jpg');
@@ -23,6 +20,7 @@
     width: 300px;
 }
 h5{
+    font-family: INFO;
     text-align: center;
     margin-top: 5rem;
     font-size: 25px;
@@ -33,6 +31,7 @@ h5{
     min-height: 100vh;
 }
 .contador{
+    font-family: INFO;
     background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.068)),url('./media/fondo-textura.jpg');
 }
 .contador2{
@@ -58,6 +57,7 @@ color: rgba(0, 0, 0, 0.527);
 
 }
 .informacion{
+    font-family: INFO;
     background-image: url('./media/fondo-textura.jpg');
     min-height: 300px;
     text-align: center;
@@ -69,21 +69,26 @@ color: rgba(0, 0, 0, 0.527);
     width: 90px;
 }
 .mes{
+    font-family: INFO;
     font-size: 30px;
     padding-bottom: .5rem;
 }
 .numero{
+    font-family: INFO;
     font-size: 50px;
     padding: 0 .5rem;
 }
 .dia, .hora{
+    font-family: INFO;
     font-size: 30px;
 }
 .año{
+    font-family: INFO;
     padding-top: .5rem;
     font-size: 30px;
 }
 .lugar{
+    font-family: INFO;
     font-size: 25px;
     padding-bottom: .5rem;
 }
@@ -96,6 +101,7 @@ a{
     font-size: 25px;
     max-width: 80%;
     margin: 0 auto;
+    font-family: INFO;
 }
 .asistencia{
     background-image: url('./media/fondo-textura.jpg');
@@ -106,6 +112,7 @@ a{
     text-align: center;
     padding-top: 2rem;
     font-size: 25px;
+    font-family: INFO;
 }
 .aConteiner{
     display: flex;
