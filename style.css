@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: INFO;
-    color:#7c8072;
-    
 }
 @font-face {
     font-family: INFO;
@@ -12,18 +10,21 @@
     src: url('./fuentes/Thanksgiving.ttf');
 }
 .presentacion{
-    min-height: 100vh;
     background-image: url('./media/fondo-textura.jpg');
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    min-height: 100vh;
+}
+.flores{
+    width: 350px;
 }
 .imgKYM{
+    margin: 0 auto;
     width: 300px;
 }
 h5{
-    margin-top: 4rem;
+    text-align: center;
+    margin-top: 5rem;
     font-size: 25px;
     color: #7c8072;
 }
@@ -60,8 +61,10 @@ color: rgba(0, 0, 0, 0.527);
     background-image: url('./media/fondo-textura.jpg');
     min-height: 300px;
     text-align: center;
+    color:#7c8072;
 }
 .calendario{
+    color: #efab96;
     padding: 2rem 0;
     width: 90px;
 }
@@ -96,8 +99,10 @@ a{
 }
 .asistencia{
     background-image: url('./media/fondo-textura.jpg');
+    padding-top: 2rem;
 }
 .asistenciaTexto{
+    color:#7c8072;
     text-align: center;
     padding-top: 2rem;
     font-size: 25px;
@@ -117,4 +122,8 @@ a{
     display: flex;
     flex-direction: column;
 
+}
+.final{
+    background-image: url('./media/fondo-textura.jpg');
+    text-align: right;
 }
