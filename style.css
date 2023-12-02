@@ -41,7 +41,9 @@ h5{
 }
 .contador{
     background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.068)),url('./media/fondo-textura.jpg');
-    color: rgba(0, 0, 0, 0.527);
+}
+.contador2{
+color: rgba(0, 0, 0, 0.527);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +58,11 @@ h5{
     align-items: center;
 }
 .nContador{
-    font-size:40px;
+    font-size: 30px;
 }
 .lContador{
-    font-size: 20px;
-    width: 1rem;
+    font-size: 30px;
+
 }
 .informacion{
     background-image: url('./media/fondo-textura.jpg');

@@ -4,81 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Karim & Martín</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="presentacion">
-        <h1>
+        <h1 data-aos="fade-down">
             K a r i m <br>
             <span class="letraY">&</span> <br>
             M a r t í n
         </h1>
-        <h5>¡NOS CASAMOS!</h5>
+        <h5 data-aos="fade-up">¡NOS CASAMOS!</h5>
     </header>
     <main>
-        <div class="contador">
-            <div class="nYlContainer">
-                <h6 id="days" class="nContador"></h6>
-                <h6 class="lContador">DÍAS</h6>
-            </div>
-            <div class="nYlContainer">
-                <h6 id="hours" class="nContador"></h6>
-                <h6 class="lContador">HORAS</h6>
-            </div>
-            <div class="nYlContainer">
-                <h6 id="minutes" class="nContador"></h6>
-                <h6 class="lContador">MIN</h6>
-            </div>
-            <div class="nYlContainer">
-                <h6 id="seconds" class="nContador"></h6>
-                <h6 class="lContador">SEG</h6>
-            </div>
+        <div class="contador" >
+            <section data-aos="fade-left" class="contador2">
+                <div class="nYlContainer">
+                    <h6 id="days" class="nContador"></h6>
+                    <h6 class="lContador">DÍAS</h6>
+                </div>
+                <div class="nYlContainer">
+                    <h6 id="hours" class="nContador"></h6>
+                    <h6 class="lContador">HOR</h6>
+                </div>
+                <div class="nYlContainer">
+                    <h6 id="minutes" class="nContador"></h6>
+                    <h6 class="lContador">MIN</h6>
+                </div>
+                <div class="nYlContainer">
+                    <h6 id="seconds" class="nContador"></h6>
+                    <h6 class="lContador">SEG</h6>
+                </div>
+            </section>
         </div> 
-        <div class="informacion">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar-heart calendario" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1m7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
-            </svg>
-            <p class="mes">
-                Marzo
-            </p>
-            <div>
-                <p>
-                    <span class="dia">Sábado |</span> 
-                    <span class="numero">16</span> 
-                    <span class="hora">| 17:00 hs</span>
+        <div class="informacion" >
+            <section data-aos="fade-right">
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar-heart calendario" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1m7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                </svg>
+                <p class="mes">
+                    Marzo
                 </p>
-            </div>
-            <p class="año">
-                2024
-            </p>
+                <div>
+                    <p>
+                        <span class="dia">Sábado |</span> 
+                        <span class="numero">16</span> 
+                        <span class="hora">| 17:00 hs</span>
+                    </p>
+                </div>
+                <p class="año">
+                    2024
+                </p>
+            </section>
             <br>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="calendario bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-              </svg>
-              <p class="lugar">
-                Paraje La Lata <br>
-                Presidente Perón, <br> Provincia de Buenos Aires
-              </p>
-              <a target="-" href="https://www.google.com/maps/place/Comunidad+Cristiana+Zona+Sur/@-34.8981541,-58.438131,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd5936fa98483:0x46fcc942719ba15e!8m2!3d-34.8981541!4d-58.438131!16s%2Fg%2F11b8z01d_c?entry=ttu">Abrir en Google Maps</a>
+            <section data-aos="fade-right">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="calendario bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+                <p class="lugar">
+                    Paraje La Lata <br>
+                    Presidente Perón, <br> Provincia de Buenos Aires
+                </p>
+                <a target="-" href="https://www.google.com/maps/place/Comunidad+Cristiana+Zona+Sur/@-34.8981541,-58.438131,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd5936fa98483:0x46fcc942719ba15e!8m2!3d-34.8981541!4d-58.438131!16s%2Fg%2F11b8z01d_c?entry=ttu">Abrir en Google Maps</a>
+            </section>
         </div>
         <div class="asistencia">
-            <p class="asistenciaTexto">
-                <B>¡TE ESPERAMOS!</B>
-                <br>
-                Confirmanos tu asistencia
-            </p>
-            <div class="aConteiner">
-                <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541138930205&text=Hola%20Karim!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
-                    <img class="imgAsistencia" src="./media/karim.jpg" alt="">
-                    Karim
-                </a>
-                <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541168500593&text=Hola%20Tincho!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
-                    <img class="imgAsistencia" src="./media/tincho.jpg" alt="">
-                    Martín
-                </a>
-            </div>
+            <section data-aos="fade-right">
+                <p class="asistenciaTexto">
+                    <B>¡TE ESPERAMOS!</B>
+                    <br>
+                    Confirmanos tu asistencia
+                </p>
+                <div class="aConteiner">
+                    <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541138930205&text=Hola%20Karim!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
+                        <img class="imgAsistencia" src="./media/karim.jpg" alt="">
+                        Karim
+                    </a>
+                    <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541168500593&text=Hola%20Tincho!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
+                        <img class="imgAsistencia" src="./media/tincho.jpg" alt="">
+                        Martín
+                    </a>
+                </div>
+            </section>
         </div>
     </main>
     <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     </body>
 </html>
