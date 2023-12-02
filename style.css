@@ -35,14 +35,15 @@ h5{
     background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.068)),url('./media/fondo-textura.jpg');
 }
 .contador2{
-color: rgba(0, 0, 0, 0.527);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 1.5rem;
+    color: #7c8072;
 }
 .nYlContainer{
+    color: #7c8072;
     width:30px;
     margin: 0 2rem;
     display: flex;
@@ -50,9 +51,11 @@ color: rgba(0, 0, 0, 0.527);
     align-items: center;
 }
 .nContador{
+    color: #7c8072;
     font-size: 30px;
 }
 .lContador{
+    color: #7c8072;
     font-size: 30px;
 
 }
