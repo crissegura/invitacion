@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Karim & Martín</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -64,7 +65,7 @@
                     Paraje La Lata <br>
                     Presidente Perón, <br> Provincia de Buenos Aires
                 </p>
-                <a target="-" href="https://www.google.com/maps/place/Comunidad+Cristiana+Zona+Sur/@-34.8981541,-58.438131,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd5936fa98483:0x46fcc942719ba15e!8m2!3d-34.8981541!4d-58.438131!16s%2Fg%2F11b8z01d_c?entry=ttu">Abrir en Google Maps</a>
+                <a class="btn-gm aLugar"  target="-" href="https://www.google.com/maps/place/Comunidad+Cristiana+Zona+Sur/@-34.8981541,-58.438131,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd5936fa98483:0x46fcc942719ba15e!8m2!3d-34.8981541!4d-58.438131!16s%2Fg%2F11b8z01d_c?entry=ttu">Abrir en Google Maps</a>
             </section>
             <br>
             <section data-aos="fade-right">
@@ -74,6 +75,36 @@
                 <p class="regalo">
                     El mejor regalo es tu presencia, pero si deseas regalarnos algo, podés hacer click en el siguiente botón, gracias!
                 </p>
+                <button id="btn" onclick="openModal()" >
+                    Ver regalos
+                </button>
+                <dialog class="estilo-modal" id="Modal">
+                    <h2 class="h2Regalos">Regalos</h2>
+                    <button id="btn">
+                        Ver lista de regalos
+                    </button>
+                    <h3 class="h3Regalos">
+                        Datos bancarios
+                    </h3>
+                    <p class="pInfoBanco">Nombre del titular: Martín Palferro</p>
+                    <p class="pInfoBanco">
+                        <span id="cvu">CVU: 0000076500000013026437</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="btn_cvu"  class="bi bi-copy" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+                          </svg>
+                    </p>
+                    <p class="pInfoBanco">
+                        <span id="alias">Alias: martinpalferro.pay</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="btn_alias"  class="bi bi-copy" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+                          </svg>
+                    </p>
+                    <p class="pInfoBanco">DNI: 44.491.253</p>
+                    <p class="pInfoBanco">Personal Pay</p>
+                    <button id="btn" onclick="closeModal()">
+                        Cerrar
+                    </button>
+                </dialog>
             </section>
         </div>
         <div class="asistencia">
@@ -86,12 +117,12 @@
                 <div class="aConteiner">
                     <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541138930205&text=Hola%20Karim!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
                         <img class="imgAsistencia" src="./media/karim.jpg" alt="">
-                        Karim
+                        Enviar asistencia a Karim
                     </a>
-                    <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541168500593&text=Hola%20Tincho!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
+                    <!-- <a target="-" class="aConfirmar" href="https://api.whatsapp.com/send?phone=541168500593&text=Hola%20Tincho!%20Te%20confirmo%20mi%20asistencia%20a%20tu%20casamiento">
                         <img class="imgAsistencia" src="./media/tincho.jpg" alt="">
                         Martín
-                    </a>
+                    </a> -->
                 </div>
             </section>
         </div>

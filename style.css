@@ -95,10 +95,17 @@ h5{
     font-size: 25px;
     padding-bottom: .5rem;
 }
-a{
+.aLugar{
     color:#7c8072;
     font-size: 20px;
     font-family: INFO;
+}
+.btn-gm{
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.274);
+    text-decoration: none;
+    border: solid 1px #7c8072;
+    padding: .5rem;
+    border-radius: 10px;
 }
 .regalo{
     font-size: 25px;
@@ -124,6 +131,7 @@ a{
 .imgAsistencia{
     border-radius: 50%;
     width: 70px;
+    margin-bottom: .5rem 0;
 }
 .aConfirmar{
     text-decoration: none;
@@ -131,9 +139,49 @@ a{
     margin:1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color:#7c8072;
 
 }
 .final{
     background-image: url('./media/fondo-textura.jpg');
     text-align: right;
+}
+.estilo-modal{
+    font-family: INFO;
+    padding: 2rem 1rem;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-image: url('./media/fondo-textura.jpg');
+    
+}
+.h2Regalos{
+    color: #595c51;
+    font-size: 35px;
+    font-family: INFO;
+    margin-bottom: 1rem;
+}
+.h3Regalos{
+    margin: 1rem ;
+    color: #595c51;
+    font-size: 25px;
+    font-family: INFO;
+    text-decoration: underline;
+}
+.pInfoBanco{
+    font-family: INFO;
+    color: #595c51;
+    font-size: 20px;
+}
+#btn{
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.274);
+    text-decoration: none;
+    border: solid 1px #7c8072;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color:#6e7265;
+    font-family: INFO;
 }

@@ -32,7 +32,32 @@ updateCountdown();
 // Refresh every second
 setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
 
+//MODAL
+let btn_regalos = document.getElementById('btn_modal')
+let Modal = document.getElementById('Modal')
+const openModal = ( ) => {
+    Modal.showModal()
+}
+const closeModal = ( ) => {
+    Modal.close()
+}
 
-
+//Copiar y pegar
+let btn_cvu = document.getElementById('btn_cvu')
+const Copiar = ( ) => {
+    let cvu = document.getElementById('cvu')
+    navigator.clipboard.writeText(cvu.textContent)
+}
+btn_cvu.onclick=()=>{
+    Copiar()
+}
+let btn_alias = document.getElementById('btn_alias')
+const CopiarBis = ( ) => {
+    let alias = document.getElementById('alias')
+    navigator.clipboard.writeText(alias.textContent)
+}
+btn_alias.onclick=()=>{
+    CopiarBis()
+}
 
 
