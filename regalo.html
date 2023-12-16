@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<body>
-    regalos
+<body class="bodyRegalos">
+    <a href="./index.html" class="volver"> ❰❰ Volver</a>
+    <h1 class="tituloRegalos">
+        Lista de regalos
+    </h1>
+    <div class="spaaan">
+        <span class="loader" id="load"></span>
+    </div>
+    <ul id="lista">
+        
+    </ul>
+    <a id="aIdeas" class="algunasIdeas noLook" href="https://drive.google.com/drive/folders/1Z9oISpeOFddX3gbskWP0lpHMiUFCQZ"> Ver algunas ideas </a>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="./database.js"></script>
 </body>
-</html>
+</html> 

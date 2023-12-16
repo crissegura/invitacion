@@ -185,3 +185,91 @@ h5{
     color:#6e7265;
     font-family: INFO;
 }
+
+/* REGALOS HTML */
+.bodyRegalos{
+    background-image: url('./media/fondo-textura.jpg');
+    font-family: INFO;
+    color: #7c8072;
+}
+.tituloRegalos{
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+}
+#lista{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.pRegalos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: INFO;
+    color: #7c8072;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.btnSeleccionar{
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.274);
+    text-decoration: none;
+    border: solid 1px #7c8072;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    color:#6e7265;
+    font-family: INFO;
+}
+
+.spaaan{
+    display: flex;
+    justify-content: center;
+
+}
+
+.loader {
+    margin-top: 2rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #6e7265;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+.sacarLoader{
+    display: none;
+}
+
+.volver{
+    margin: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: INFO;
+    color: #7c8072;
+    text-align: left;
+}
+
+.algunasIdeas{
+    font-size: 20px;
+    font-family: INFO;
+    display: flex;
+    justify-content: center;
+}
+
+.noLook{
+    display: none;
+}

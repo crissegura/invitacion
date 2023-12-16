@@ -60,4 +60,8 @@ btn_alias.onclick=()=>{
     CopiarBis()
 }
 
-
+//Ir a regalos
+let btnRegalos = document.getElementsByClassName('btnRegalos')
+btnRegalos.onclick = ( ) => {
+    alert('messi')
+}
